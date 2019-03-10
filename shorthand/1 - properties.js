@@ -2,11 +2,10 @@
 you can use the shorthand and simply pass the key name. */
 
 function formatMessage({ name, id, avatar }) {
-    return {
-      id,
-      name,
-      avatar,
-      timestamp: Date.now()
-    }
-  }
-  
+  return {
+    id,
+    name,
+    avatar,
+    timestamp: Date.now()
+  };
+}
