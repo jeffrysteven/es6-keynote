@@ -19,4 +19,4 @@ function fetch({ endpoint, method = 'GET', body = null }) {
     }
 }
 
-fetch({ endpoint: '/me', method: 'GET'})
+fetch({ endpoint: '/me'})
