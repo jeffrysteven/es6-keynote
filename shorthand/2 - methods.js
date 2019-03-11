@@ -7,7 +7,7 @@ function formatMessage(name, id, avatar) {
     name,
     avatar,
     timestamp: Date.now(),
-    delete () {
+    delete() {
       // delete message
     }
   }
