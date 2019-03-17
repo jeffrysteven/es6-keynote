@@ -1,3 +1,4 @@
+// Example # 2
 // ES5
 function calculatePayment(price, tax, discount) {
     tax = typeof tax === undefined ? 0.19 : tax
@@ -12,4 +13,9 @@ function isRequired(name) {
 
 function calculatePayment(price = isRequired('price'), tax = 0.19, discount = 0) {
     // math
+}
+
+// EXAMPLE # 2
+function buildHouse({floors = 1, color = 'red', walls = 'brick'} = {}) {
+    return `Your house has ${floors} floor(s) with ${color} ${walls} walls.`
 }
