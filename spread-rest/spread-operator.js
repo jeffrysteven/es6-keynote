@@ -2,7 +2,7 @@
 
 const authors = [
   "Dostoievski",
-  "García Marquez",
+  "García Márquez",
   "Murakami",
   "King",
   "Hemingway"
@@ -10,4 +10,4 @@ const authors = [
 
 console.log(...authors)
 
-// Prints: Dostoievski García Marquez Murakami King Hemingway
+// Prints: Dostoievski García Márquez Murakami King Hemingway
